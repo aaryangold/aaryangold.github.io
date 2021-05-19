@@ -60,14 +60,14 @@
   </li>
 {%- endif -%}
   
-  {%- if site.social-network-links.kaggle -%}
+  {%- if site.social-network-links.linkedin -%}
   <li class="list-inline-item">
-    <a href="https://www.kaggle.com/{{ site.social-network-links.kaggle }}" title="Kaggle">
+    <a href="https://linkedin.com/in/{{ site.social-network-links.linkedin }}" title="LinkedIn">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-kaggle fa-stack-1x fa-inverse"></i>
+        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">Kaggle</span>
+      <span class="sr-only">LinkedIn</span>
    </a>
   </li>
 {%- endif -%}
@@ -80,6 +80,18 @@
         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">GitHub</span>
+   </a>
+  </li>
+{%- endif -%}
+  
+  {%- if site.social-network-links.kaggle -%}
+  <li class="list-inline-item">
+    <a href="https://www.kaggle.com/{{ site.social-network-links.kaggle }}" title="Kaggle">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-kaggle fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Kaggle</span>
    </a>
   </li>
 {%- endif -%}
@@ -104,18 +116,6 @@
         <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">Reddit</span>
-   </a>
-  </li>
-{%- endif -%}
-
-{%- if site.social-network-links.linkedin -%}
-  <li class="list-inline-item">
-    <a href="https://linkedin.com/in/{{ site.social-network-links.linkedin }}" title="LinkedIn">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">LinkedIn</span>
    </a>
   </li>
 {%- endif -%}
